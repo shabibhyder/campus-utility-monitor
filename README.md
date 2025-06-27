@@ -10,6 +10,7 @@ This project implements a real-time monitoring system for campus utilities, incl
 - Provides a Python Flask exporter exposing metrics in Prometheus format.
 - Prometheus scrapes metrics every 15 seconds.
 - Grafana dashboards visualize the metrics for easy monitoring.
+- Fully containerized with Docker and orchestrated with Docker Compose.
 - Designed to be extensible for real-world data integration.
 
 ---
@@ -20,7 +21,8 @@ This project implements a real-time monitoring system for campus utilities, incl
 - Flask  
 - prometheus_client library  
 - Prometheus  
-- Grafana  
+- Grafana
+- Docker and docker compose
 
 ---
 
