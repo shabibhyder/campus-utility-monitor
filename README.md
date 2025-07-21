@@ -1,3 +1,4 @@
+# Author: Shabib Gazi
 # Campus Utility Monitor
 
 This project implements a real-time monitoring system for campus utilities, including power usage, water consumption, and CO2 levels, broken down by building. It uses Python to simulate and expose metrics, Prometheus to scrape and store the data, and Grafana to visualize it.
